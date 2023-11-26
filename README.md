@@ -1,4 +1,4 @@
 # ML-prediction-for-MSWIFA-by-geopolymers
 
-ML_model.joblib is the ML model for predicting heavy metal immobilization rate.
+ML_model.joblib is the ML model for predicting heavy metal immobilization rate.\n
 StandardScaler.joblib is the model for standardizing input features.
