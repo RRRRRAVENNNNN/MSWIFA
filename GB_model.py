@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-from sklearn.preprocessing import StandardScaler
+
 
 
 model = joblib.load('ML model.joblib')
