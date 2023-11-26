@@ -36,5 +36,5 @@ if st.button('Predict'):
     error = abs(float(prediction) - feature)
     st.success(f'Predicted heavy metal immobilization rate: {prediction[0]:.2f}%')
     if feature != 0:
-        st.success(f'Error: {error:.2f}%')
+        st.success(f'Error: {Residual:.2f}%')
     
