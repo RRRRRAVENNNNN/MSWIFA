@@ -1,9 +1,9 @@
 import streamlit as st
-from joblib import load
+import joblib
 import numpy as np
 
-model = load('ML model.joblib')
-scaler = load('StandardScaler.joblib')
+model = joblib.load('ML model.joblib')
+scaler = joblib.load('StandardScaler.joblib')
 
 st.title('GB model for predicting heavy metal immobilization rate in MSWIFA by geopolymers')
 
