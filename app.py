@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import sklearn
 
 model = joblib.load('ML model.joblib')
 scaler = jolib.load('StandardScaler.joblib')
