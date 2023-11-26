@@ -5,7 +5,7 @@ import numpy as np
 model = load('model/ML_model.joblib')
 scaler = load('model/StandardScaler.joblib')
 
-st.title('GB model for predicting heavy metal immobilization rate in MSWIFA by geopolymers')
+st.title('ML model for predicting heavy metal immobilization rate in MSWIFA by geopolymers')
 
 col1, col2 = st.columns(2)
 
