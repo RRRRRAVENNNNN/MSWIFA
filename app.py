@@ -33,8 +33,8 @@ if st.button('Predict'):
     input_data = np.array([feature_values])
     input_data_scaled = scaler.transform(input_data)
     prediction = model.predict(input_data_scaled)
-    error = abs(float(prediction) - feature)
+    residual = abs(float(prediction) - feature)
     st.success(f'Predicted heavy metal immobilization rate: {prediction[0]:.2f}%')
     if feature != 0:
-        st.success(f'Error: {Residual:.2f}%')
+        st.success(f'Residual: {residual:.2f}%')
     
