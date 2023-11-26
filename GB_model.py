@@ -1,6 +1,10 @@
 import streamlit as st
 import joblib
 import numpy as np
+import pandas as pd
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.preprocessing import StandardScaler
+
 
 model = joblib.load('ML model.joblib')
 scaler = joblib.load('StandardScaler.joblib')
